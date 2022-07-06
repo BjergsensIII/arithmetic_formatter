@@ -82,3 +82,5 @@ def arithmetic_arranger(problems, solver = False):
   else:
     resolution = topNumber + "\n" + bottomNumber + "\n" + lines
   return resolution
+
+arithmetic_arranger(['3801 - 2', '123 + 49'], True)
